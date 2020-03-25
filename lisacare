@@ -1,0 +1,9 @@
+{{/*
+	This is a simple command I had the idea for and put together with the help of ShadowNight. It simply monitors for a regex trigger (in this case Lisa-Bot from Felix Rilling with ^(\$hug|\$water) and gives them a role after a certain number of commands are sent. Simply replace values in <BRACKETS> and you should be good to go. 
+*/}}
+
+{{ if eq (toInt (dbGet .User.ID "<YOUR DB KEY NAME>" ).Value) <REQUIRED NUMBER OF COMMMANDS SENT> }}
+{{ addRoleID <ROLE ID TO ASSIGN> }} {{dbDel .User.ID "<YOUR DB CARE NAME>" }}
+{{ else }}
+{{ $incr := dbIncr .User.ID "<YOUR DB KEY NAME>" 1 }}
+{{ end }}
