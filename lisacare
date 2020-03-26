@@ -3,7 +3,7 @@
 */}}
 
 {{ if eq (toInt (dbGet .User.ID "<YOUR DB KEY NAME>" ).Value) <REQUIRED NUMBER OF COMMMANDS SENT> }}
-{{ addRoleID <ROLE ID TO ASSIGN> }} {{dbDel .User.ID "<YOUR DB CARE NAME>" }}
+{{ addRoleID <ROLE ID TO ASSIGN> }} {{dbDel .User.ID "<YOUR DB KEY NAME>" }}
 {{ else }}
 {{ $incr := dbIncr .User.ID "<YOUR DB KEY NAME>" 1 }}
 {{ end }}
