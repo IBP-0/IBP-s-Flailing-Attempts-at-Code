@@ -1,0 +1,31 @@
+{oneline:{when:{time:%H};eq;08;It's 4 in the morning, what are you even doing here IBP-0? Oh, hello other person. Check on Lisa please. :seedling: :green_heart:;
+{when:{time:%H};eq;09;BONG 5 O'Clock, good morning before the morning folks. Time to check on lisa :seedling: :green_heart:;
+{when:{time:%H};eq;10;Its 6 now, so get up @humanz Ha ha. Give the plant a $hug why don't ya?:seedling::green_heart:;
+{when:{time:%H};eq;11;It's 7, get going folks , get some :coffee:  and water the plant. :seedling: :green_heart:;
+{when:{time:%H};eq;12;8 8 8 8 8 8, so check check check check on our lovely little lisa :seedling: :green_heart:;
+{when:{time:%H};eq;13;Hellow. 9 O'Clock IBP time. $status the plant why don't ya? :seedling: :green_heart:;
+{when:{time:%H};eq;14;The morning is getting on. All humanz wake up! :seedling: :green_heart:;
+{when:{time:%H};eq;15;Eleven Eleven Eleven. Hope everyone is having a good day. Please $hug :seedling: :green_heart:;
+{when:{time:%H};eq;16;It's HIGH NOON @humanz! On the east coast at least. Lisa is getting some sun! :seedling: :green_heart:;
+{when:{time:%H};eq;17;It's One, Hello all humanz please $status lisa :seedling: :green_heart:;
+{when:{time:%H};eq;18;Its 2 O'clock and the plant needs $watering! Get to it! :seedling: :green_heart:;
+{when:{time:%H};eq;19;Afternoon humanz. Check the plant for IBP please. :seedling: :green_heart:;
+{when:{time:%H};eq;20;Its 4... that's at least part of my name. Check the plant? :seedling: :green_heart:;
+{when:{time:%H};eq;21;Its 5 O'Clock, I think the sun is starting to go down. :seedling: :green_heart:;
+{when:{time:%H};eq;22;666! Mark of the beast! Ha ha JK. JK. huehuehue. :seedling: :green_heart:;
+{when:{time:%H};eq;23;7 was the old record, but let's make it to more! $hug her already! :seedling: :green_heart:;
+{when:{time:%H};eq;00;Its 8 in the evening. Hope you all have had a good day. :seedling: :green_heart:;
+{when:{time:%H};eq;01;Ding! It's 9 o'clock! Hug status water whatever! :seedling: :green_heart:;
+{when:{time:%H};eq;02;Its 10 in the evening and .lisa's still thirty. Buy her a round of $water? :seedling: :green_heart:;
+{when:{time:%H};eq;03;Eleven, eleven, 11 at night :crescent_moon: Lisa wants a bedtime story. :seedling: :green_heart:;
+{when:{time:%H};eq;04;Hello midnight, hello eternity. :seedling: :green_heart:;
+{when:{time:%H};eq;05;Its Life, the ultimate riddle and nothing but $hugs. That's synergy folks. :seedling: :green_heart:;
+{when:{time:%H};eq;06;Of course, IBP-0 "may" be asleep, but he may not be. Why don't you $status anyways? :seedling: :green_heart:;
+{when:{time:%H};eq;07;its Three, Three, Three. That's enough. Three hugs for good luck. :seedling: :green_heart:;
+
+
+
+
+
+    ....
+;};};};};};};};};};};};};};};};};};};};};};};};};};
