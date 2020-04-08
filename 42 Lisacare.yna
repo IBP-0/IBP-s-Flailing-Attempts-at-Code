@@ -13,7 +13,7 @@
     {when:{time:%H};eq;20;Its 4... that's at least part of my name. Check the plant? :seedling: :green_heart:;
     {when:{time:%H};eq;21;Its 5 O'Clock, I think the sun is starting to go down. :seedling: :green_heart:;
     {when:{time:%H};eq;22;666! Mark of the beast! Ha ha JK. JK. huehuehue. :seedling: :green_heart:;
-    {when:{time:%H};eq;23;7 was the old record, but let's make it to more! $hug her already! :seedling: :green_heart:;
+    {when:{time:%H};eq;23;7? That was the old record! Let's make it to more! $hug her already! :seedling: :green_heart:;
     {when:{time:%H};eq;00;Its 8 in the evening. Hope you all have had a good day. :seedling: :green_heart:;
     {when:{time:%H};eq;01;Ding! It's 9 o'clock! Hug status water whatever! :seedling: :green_heart:;
     {when:{time:%H};eq;02;Its 10 in the evening and .lisa-bot :seedling: 's thirsty? Buy her a round of $water if so, but don't forget to $status her first, it's only polite. :seedling: :green_heart:;
