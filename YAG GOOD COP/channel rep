@@ -1,5 +1,7 @@
 {{/* This is a command designed to giverep to anyone posting in a certain channel, with a cooldown set by user. */}}
+{{/*regex trigger '.*', run only in channels wanted*/}}
 
+{{/*variables set*/}}
 {{/* 1 for Global / 0 for per User */}}
 {{$isGlobal := 0}}
 {{/*cooldown name*/}}
