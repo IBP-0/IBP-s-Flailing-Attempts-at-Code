@@ -7,7 +7,7 @@
 {{/*cooldown name*/}}
 {{$name := "repchan"}}
 {{/* cool length (sec) */}}
-{{$lengthSec := 1800}}
+{{$lengthSec := 900}}
 
 {{/*code*/}}
 {{$id := 0}}
@@ -19,6 +19,10 @@
 {{if (dbGet (toInt64 $id) $key)}} 
 {{else}}
 {{dbSetExpire (toInt64 $id) $key "cooldown" $lengthSec}}
+{{/*define message length*/}}
+{{if ge (len (toRune .Message.Content)) 100}}
 {{/*define rep amount*/}}
 {{execAdmin "giverep" .User "1"}}
+{{else}} 
+{{end}}
 {{end}}
