@@ -1,4 +1,4 @@
-{{/* This is a command designed to giverep to anyone posting in a certain channel, with a cooldown set by user. */}}
+{{/* This is a command designed to giverep to anyone posting in a certain channel, with a certain message length, with a cooldown set by user. */}}
 {{/*regex trigger '.*', run only in channels wanted*/}}
 
 {{/*variables set*/}}
@@ -9,20 +9,22 @@
 {{/* cool length (sec) */}}
 {{$lengthSec := 900}}
 
-{{/*code*/}}
+{{/*code defining variables*/}}
 {{$id := 0}}
 {{$key := (joinStr "" "cooldown_" $name)}}
 {{if eq $isGlobal 0}}
 {{$id = .User.ID}}
 {{end}}
 
+
+{{/*cooldown check*/}}
 {{if (dbGet (toInt64 $id) $key)}} 
 {{else}}
-{{dbSetExpire (toInt64 $id) $key "cooldown" $lengthSec}}
-{{/*define message length*/}}
+{{/*set message length*/}}
 {{if ge (len (toRune .Message.Content)) 100}}
+{{/*cooldown set when rep triggered*/}}
+{{dbSetExpire (toInt64 $id) $key "cooldown" $lengthSec}}
 {{/*define rep amount*/}}
-{{execAdmin "giverep" .User "1"}}
-{{else}} 
+{{execAdmin "giverep" .User "1"}} 
 {{end}}
 {{end}}
